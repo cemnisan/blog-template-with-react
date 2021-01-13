@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import svg from '../image/NORDICROSE.svg'
+
 class Navbar extends Component {
     render() {
         let resumeData = this.props.resumeData;

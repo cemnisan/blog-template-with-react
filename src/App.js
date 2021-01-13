@@ -1,5 +1,6 @@
-import Navbar from './components/functions/Navbar';
+import Navbar from './components/class/Navbar';
 import Feature from './components/class/Feature';
+import AllArticles from './components/class/AllArticles';
 import resumeData from './resumeData';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Navbar resumeData={resumeData} />
       <hr></hr>
       <Feature resumeData={resumeData} />
+      <AllArticles resumeData={resumeData} />
     </header>
   );
 }

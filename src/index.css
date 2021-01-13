@@ -86,3 +86,49 @@ code {
     margin-left: 1em;
   }
 }
+
+.articles{
+  text-align: center;
+  font-family: 'New York Extra Large', sans-serif;
+  height: auto;
+  margin: auto;
+}
+
+.row{
+  justify-content: center;
+}
+
+.card-img-top{
+  width: 304px;
+  height: auto;
+}
+
+.card-body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+
+
+@media screen and (max-width:800px){
+  .card-img-top{
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width:800px){
+  .card-body h6{
+    width: 12em;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 1182px) and (min-width: 783px){
+  .card-img-top{
+    width: 150px;
+    height: 100px;
+    
+  }
+  .card-body h6{
+    width: 7em;
+    
+  }
+}
