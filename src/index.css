@@ -1,0 +1,88 @@
+@import url('http://fonts.cdnfonts.com/css/new-york-extra-large');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar-svg{
+  width: 240px;
+}
+
+.active{
+  letter-spacing: 3px;
+  color:black;
+  font-family:'Courier New', Courier, monospace;
+    
+}
+
+.cardFeature{
+  width: 650px;
+  height: auto;
+  margin: auto;
+}
+
+@media screen and (max-width:850px){
+  .cardFeature{
+    width: 450px;
+    height: auto;
+    margin: auto;
+  }
+}
+
+.cardImg{
+  width: 100%;
+  height: auto;
+}
+.bodyFeature{
+  font-family: 'New York Extra Large', sans-serif;
+  margin:24px;
+}
+
+.bodyFeature h1{
+  text-align: center;
+  width: 15em;
+  word-wrap: break-word;
+  border: 0px solid;
+}
+@media screen and (max-width:850px){
+  .bodyFeature h1{
+    width: 14em;
+    
+  }
+}
+.bodyFeature p{
+  font-family: monospace;
+  text-align: center;
+  border: 0px solid;
+  width: 21em;
+  margin-left: 4em;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width:1200px){
+  .bodyFeature p{
+    font-family: monospace;
+    width: 16em;
+    text-align: center;
+    margin-left:3em;
+  }
+}
+
+@media screen and (max-width:850px){
+  .bodyFeature p{
+    font-family: monospace;
+    width: 16em;
+    text-align: center;
+    margin-left: 1em;
+  }
+}
