@@ -1,6 +1,7 @@
 import Navbar from './components/class/Navbar';
 import Feature from './components/class/Feature';
 import AllArticles from './components/class/AllArticles';
+import Footer from './components/class/Footer';
 import resumeData from './resumeData';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <hr></hr>
       <Feature resumeData={resumeData} />
       <AllArticles resumeData={resumeData} />
+      <Footer />
     </header>
   );
 }

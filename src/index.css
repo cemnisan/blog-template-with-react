@@ -31,13 +31,7 @@ code {
   margin: auto;
 }
 
-@media screen and (max-width:850px){
-  .cardFeature{
-    width: 450px;
-    height: auto;
-    margin: auto;
-  }
-}
+
 
 .cardImg{
   width: 100%;
@@ -54,12 +48,7 @@ code {
   word-wrap: break-word;
   border: 0px solid;
 }
-@media screen and (max-width:850px){
-  .bodyFeature h1{
-    width: 14em;
-    
-  }
-}
+
 .bodyFeature p{
   font-family: monospace;
   text-align: center;
@@ -67,24 +56,6 @@ code {
   width: 21em;
   margin-left: 4em;
   word-wrap: break-word;
-}
-
-@media screen and (max-width:1200px){
-  .bodyFeature p{
-    font-family: monospace;
-    width: 16em;
-    text-align: center;
-    margin-left:3em;
-  }
-}
-
-@media screen and (max-width:850px){
-  .bodyFeature p{
-    font-family: monospace;
-    width: 16em;
-    text-align: center;
-    margin-left: 1em;
-  }
 }
 
 .articles{
@@ -108,7 +79,88 @@ code {
   color: black;
 }
 
+.footer{
+  background-color: black;
+}
 
+.footer ul{
+  list-style-type: none;
+}
+
+.footer ul>li{
+  font-size: 24px;
+  color:white;
+  margin-left: 2em;
+  margin-top: 12px;  
+}
+
+.footerTitle h1{
+  margin:auto;
+  color: white;
+  margin-top:2em;
+  font-size: 3em;
+}
+
+.footerContent p{
+  text-align: center;
+  margin:auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: white;
+  width: 28em;
+  font-size: 1em;
+}
+
+@media screen and (max-width:850px){
+  .cardFeature{
+    width: 450px;
+    height: auto;
+    margin: auto;
+  }
+}
+
+.socialMedia ul{
+  justify-content: center;
+  margin-right: 5em;
+  text-decoration-line:underline;
+  text-decoration-color: white;
+}
+
+.copyright{
+  justify-content: center;
+  margin-top:5em;
+  color: white;
+}
+
+.copyright h6{
+  width: 14em;
+  text-align: center;
+}
+
+@media screen and (max-width:850px){
+  .bodyFeature h1{
+    width: 14em;
+    
+  }
+}
+
+@media screen and (max-width:1200px){
+  .bodyFeature p{
+    font-family: monospace;
+    width: 16em;
+    text-align: center;
+    margin-left:3em;
+  }
+}
+
+@media screen and (max-width:850px){
+  .bodyFeature p{
+    font-family: monospace;
+    width: 16em;
+    text-align: center;
+    margin-left: 1em;
+  }
+}
 
 @media screen and (max-width:800px){
   .card-img-top{
