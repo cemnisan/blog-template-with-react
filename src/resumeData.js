@@ -14,7 +14,7 @@ let resumeData = {
         {
             "picture":picture,
             "title":"A few words about this blog platform, Ghost, and how this site was made",
-            "contect":"Why Ghost (& Figma) instead of Medium, WordPress or other options?"
+            "content":"Why Ghost (& Figma) instead of Medium, WordPress or other options?"
         }
     ],
     "allArticles":[
@@ -47,7 +47,7 @@ let resumeData = {
         "Digital product design","Remote work","UX design","Distributed teams","Creativity","Strategy","Suspense","Growth"
     ],
     "socialMedia":["Twitter","Linkedln","RSS"],
-    "footer":[
+    "footerInfo":[
         {
             "title":"NORDIC ROSE",
             "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus.",

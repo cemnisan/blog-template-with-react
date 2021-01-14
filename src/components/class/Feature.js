@@ -7,13 +7,13 @@ class Feature extends Component {
             <div className="container mt-5">
                 {
                     resumeData.feature.map(item =>{
-                        let {picture,title,contect} = item;
+                        let {picture,title,content} = item;
                         return(
                             <div className="cardFeature">
                                 <img src={picture} className="cardImg" alt="..."></img>
                                 <div className="bodyFeature">
                                     <h1 className="fw-bolder mb-2">{title}</h1>
-                                    <p className="mt-3 fs-3">{contect}</p>
+                                    <p className="mt-3 fs-3">{content}</p>
                                     <hr></hr>
                                 </div>
                             </div>

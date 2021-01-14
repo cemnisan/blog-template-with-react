@@ -16,7 +16,7 @@ class Footer extends Component {
                        }
                    </ul>
                    {
-                       resumeData.footer.map(item=>{
+                       resumeData.footerInfo.map(item=>{
                            let {title,content} = item;
                            return(
                                <div>
