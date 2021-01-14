@@ -42,6 +42,16 @@ let resumeData = {
             "picture":pictureSix,
             "content":"It’s all about finding the perfect balance"
         },
+    ],
+    "element":[
+        "Digital product design","Remote work","UX design","Distributed teams","Creativity","Strategy","Suspense","Growth"
+    ],
+    "socialMedia":["Twitter","Linkedln","RSS"],
+    "footer":[
+        {
+            "title":"NORDIC ROSE",
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus.",
+        },
     ]
 }
 

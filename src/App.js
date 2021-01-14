@@ -11,7 +11,7 @@ function App() {
       <hr></hr>
       <Feature resumeData={resumeData} />
       <AllArticles resumeData={resumeData} />
-      <Footer />
+      <Footer resumeData={resumeData} />
     </header>
   );
 }

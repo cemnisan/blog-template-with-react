@@ -79,7 +79,7 @@ code {
   color: black;
 }
 
-.footer{
+#footer-cont{
   background-color: black;
 }
 
@@ -98,7 +98,7 @@ code {
   margin:auto;
   color: white;
   margin-top:2em;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .footerContent p{

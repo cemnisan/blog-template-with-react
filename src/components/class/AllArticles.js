@@ -15,10 +15,10 @@ class AllArticles extends Component {
                                         let {picture,content} = item;
                                         return(
                                             <div className="col-md-6">
-                                                <div class="card border-0 mb-4">
-                                                    <img src={picture} class="card-img-top" alt="..."></img>
-                                                    <div class="card-body">
-                                                        <h6 class="card-text fs-4">{content}</h6>
+                                                <div className="card border-0 mb-4">
+                                                    <img src={picture} className="card-img-top" alt="..."></img>
+                                                    <div className="card-body">
+                                                        <h6 className="card-text fs-4">{content}</h6>
                                                     </div>
                                                 </div>
                                             </div>
