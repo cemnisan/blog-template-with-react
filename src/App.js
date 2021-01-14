@@ -2,6 +2,7 @@ import Navbar from './components/class/Navbar';
 import Feature from './components/class/Feature';
 import AllArticles from './components/class/AllArticles';
 import Footer from './components/class/Footer';
+import About from './components/class/About';
 import NotFound from './components/class/NotFound';
 import resumeData from './resumeData';
 
@@ -11,8 +12,10 @@ function App() {
   return (
     <Router>
       <header>
+
         <Navbar resumeData={resumeData} />
         <hr></hr>
+
         <Switch>
 
           <Route exact path="/">
@@ -21,12 +24,11 @@ function App() {
           </Route>
 
           <Route exact path="/about">
-          </Route>
-
-          <Route exact path="/blog">
+            <About resumeData={resumeData} />
           </Route>
 
           <Route component={NotFound}/>
+
         </Switch>
         <Footer resumeData={resumeData} />
       </header>
