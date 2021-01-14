@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom';
 import svg from '../image/NORDICROSE.svg'
 
 class Navbar extends Component {
@@ -8,7 +9,9 @@ class Navbar extends Component {
             <nav className="navbar navbar-expand-lg navbar-light bg-white">
                 <div className="container-fluid mt-3">
                     <a className="navbar-brand fw-bold mx-5" href="/">
-                        <img src={svg} alt ="..." className="navbar-svg"></img>
+                        <Link to="/">
+                            <img src={svg}  alt ="..." className="navbar-svg"></img>
+                        </Link>
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -16,10 +19,10 @@ class Navbar extends Component {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto mx-5">
                             {
-                                resumeData.navbar.map(item =>{     
+                                resumeData.navbar.map(item =>{    
                                     return(
                                         <li className="nav-item">
-                                            <a className="nav-link active fw-bold fs-5" aria-current="page" href="/">{item}</a>
+                                            <Link className="nav-link active fw-bold fs-5" aria-current="page" to={item.toLowerCase()}>{item}</Link>
                                         </li>
                                     )
                                 })
