@@ -2,6 +2,7 @@ import Navbar from './components/class/Navbar';
 import Feature from './components/class/Feature';
 import AllArticles from './components/class/AllArticles';
 import Footer from './components/class/Footer';
+import NotFound from './components/class/NotFound';
 import resumeData from './resumeData';
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
@@ -13,16 +14,19 @@ function App() {
         <Navbar resumeData={resumeData} />
         <hr></hr>
         <Switch>
+
           <Route exact path="/">
             <Feature resumeData={resumeData} />
             <AllArticles resumeData={resumeData} />
           </Route>
+
           <Route exact path="/about">
-            
           </Route>
+
           <Route exact path="/blog">
-            
           </Route>
+
+          <Route component={NotFound}/>
         </Switch>
         <Footer resumeData={resumeData} />
       </header>
