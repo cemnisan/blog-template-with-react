@@ -262,6 +262,18 @@ code {
   
 }
 
+#profileId{
+  margin: auto;
+  height: auto;
+  margin-left: 26.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.profileTitle p{
+  width: 30em;
+}
+
 .whatToNext h1{
   margin: auto;
   

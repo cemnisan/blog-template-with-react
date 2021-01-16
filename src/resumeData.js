@@ -5,6 +5,10 @@ import pictureThree from './components/image/4.png'
 import pictureFour from './components/image/5.png'
 import pictureFive from './components/image/6.png'
 import pictureSix from './components/image/7.png'
+import bgPicture from './components/image/8.jpg';
+import profilePicture from './components/image/9.png';
+import articlePicture from './components/image/10.png';
+
 
 let resumeData = {
     "navbar":[
@@ -85,6 +89,34 @@ let resumeData = {
             "sideTitle":"Basis Grotesque Pro",
             "sideContent":"-used in the logo as vector outline",
             "sideContentTwo":"-by Good Type Foundry"
+        }
+    ],
+    "articles":[
+        {
+            "title":"A few words about this blog platform, Ghost, and how this site was made",
+            "content":"Why Ghost (& Figma) instead of Medium, WordPress or other options?",
+            "picture":bgPicture
+        }
+    ],
+    "author":[
+        {
+            "fullName":"MIKA MATIKAINEN",
+            "date":"Apr 15, 2020 · 4 min read",
+            "picture":profilePicture
+        }
+    ],
+    "articleContent":[
+        {
+            "introContent":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean pharetra quis lacus at viverra.<br></br> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis posuere ligula. In eu dui molestie, molestie lectus eu, semper lectus.",
+            "title":"Next on the pipeline",
+            "content":"Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi efficitur auctor metus, id mollis lorem pellentesque id. Nullam posuere maximus dui et fringilla.",
+            "picture":articlePicture,
+            "pictureFig":"Image caption centered this way and I’ll make this a bit longer to indicate the amount of line-height.",
+            "contentContinue":"Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis posuere ligula. In eu dui molestie, molestie lectus eu, semper lectus. Proin at justo lacinia, auctor nisl et, consequat ante. Donec sit amet nisi arcu. Morbi efficitur auctor metus, id mollis lorem pellentesque id. Nullam posuere maximus dui et fringilla. Nulla non volutpat leo.",
+            "author":"Mika Matikainen is a Design Founder & Advisor, Berlin School of Creative Leadership Executive MBA participant, Zippie advisor, Wolt co-founder, and Nordic Rose stakeholder.",
+            "authorPic":profilePicture,
+            
+
         }
     ]
 }
