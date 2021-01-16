@@ -18,6 +18,11 @@ code {
   width: 240px;
 }
 
+.navbar-toggler{
+  border: 0px solid;
+}
+
+
 .active{
   letter-spacing: 3px;
   color:black;
@@ -95,14 +100,6 @@ code {
   margin-top: 12px;  
 }
 
-@media screen and(max-width:500){
-  .footer ul>li{
-    font-size: 24px;
-    color:black;
-    margin-left: 2em;
-    margin-top: 12px;  
-  }
-}
 
 .footerTitle h1{
   margin:auto;
@@ -167,6 +164,118 @@ code {
 .vr h2{
   margin-left: 18px;
 }
+
+
+.socialMedia ul{
+  justify-content: center;
+  margin-right: 5em;
+  text-decoration-line:underline;
+  text-decoration-color: white;
+}
+
+.copyright{
+  justify-content: center;
+  margin-top:5em;
+  color: white;
+}
+
+.copyright h6{
+  width: 14em;
+  text-align: center;
+  
+}
+
+.articleTitle h1{
+  width: 14em;
+  margin: auto;
+  font-family: 'New York Extra Large', sans-serif;
+}
+.articleTitle p{
+  width: 21em;
+  margin:auto;
+  margin-top:12px;
+  font-family: monospace
+}
+
+.article hr{
+  width: 40em;
+  margin-left: 27em;
+  border: 1px solid;
+  color: #000000;
+}
+
+.article-img{
+  width: 720px;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.profile{
+  justify-content: start;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 6em;
+}
+
+.profileSocial{
+  margin-left: 2em;
+  margin-top:1.5em;
+}
+
+.twitter,.facebook{
+  border-style: outset;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+}
+
+.content p{
+  margin-top: 2em;
+  width: 35em;
+  margin: auto;
+}
+
+.articleContent{
+  margin: auto;
+}
+
+.articlesTitle h3{
+  text-align: center;
+  margin-right: 10.8em;
+  margin-bottom: 1em;
+}
+
+.articlesTitle p{
+  margin-top: 2em;
+  width: 35em;
+  margin: auto;
+}
+
+.articlesImage{
+  margin: auto;
+  width: 600px;
+  margin-bottom: 2em;
+}
+.articlesImage figcaption{
+  text-align: center;
+  
+}
+
+.whatToNext h1{
+  margin: auto;
+  
+}
+@media screen and(max-width:500){
+  .footer ul>li{
+    font-size: 24px;
+    color:black;
+    margin-left: 2em;
+    margin-top: 12px;  
+  }
+}
+
+
 @media screen and (max-width:600px){
   .about{
     width: 490px;
@@ -185,6 +294,7 @@ code {
   }
   
 }
+
 @media screen and (max-width:700px){
   .about{
     width: 610px;
@@ -224,24 +334,12 @@ code {
   }
 }
 
-.socialMedia ul{
-  justify-content: center;
-  margin-right: 5em;
-  text-decoration-line:underline;
-  text-decoration-color: white;
+@media screen and (max-width:500px){
+  .navbar-svg{
+    margin-left: 2em;
+  }
 }
 
-.copyright{
-  justify-content: center;
-  margin-top:5em;
-  color: white;
-}
-
-.copyright h6{
-  width: 14em;
-  text-align: center;
-  
-}
 
 @media screen and (max-width:850px){
   .bodyFeature h1{
