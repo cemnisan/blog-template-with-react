@@ -8,8 +8,7 @@ class ArticleDetail extends Component {
             <ArticleConsumer>
                 {
                     value =>{
-                        const {articleContent,articles,author} = value;
-                        
+                        const {articleContent,articles,author} = value;                        
                         return (
                             <div className="container-fluid">
                                 <div className="article">

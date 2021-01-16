@@ -1,0 +1,33 @@
+{
+    "article":[
+
+        [
+            {
+                "id":1,
+                "introContent":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean pharetra quis lacus at viverra.<br></br> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis posuere ligula. In eu dui molestie, molestie lectus eu, semper lectus.",
+                "title":"Next on the pipeline",
+                "content":"Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi efficitur auctor metus, id mollis lorem pellentesque id. Nullam posuere maximus dui et fringilla.",
+                "picture":"https://picsum.photos/854/570",
+                "pictureFig":"Image caption centered this way and I’ll make this a bit longer to indicate the amount of line-height.",
+                "contentContinue":"Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis posuere ligula. In eu dui molestie, molestie lectus eu, semper lectus. Proin at justo lacinia, auctor nisl et, consequat ante. Donec sit amet nisi arcu. Morbi efficitur auctor metus, id mollis lorem pellentesque id. Nullam posuere maximus dui et fringilla. Nulla non volutpat leo.",
+                "author":"Mika Matikainen is a Design Founder & Advisor, Berlin School of Creative Leadership Executive MBA participant, Zippie advisor, Wolt co-founder, and Nordic Rose stakeholder.",
+                "authorPic":"https://picsum.photos/56/56"
+            }
+        ],
+        [
+            {
+                "title":"A few words about this blog platform, Ghost, and how this site was made",
+                "content":"Why Ghost (& Figma) instead of Medium, WordPress or other options?",
+                "picture":"https://picsum.photos/1440/900"
+            }
+        ],
+        [
+            {
+                "fullName":"MIKA MATIKAINEN",
+                "date":"Apr 15, 2020 · 4 min read",
+                "picture":"https://picsum.photos/56/56"
+            }
+        ]
+    ]
+    
+}
