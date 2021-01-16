@@ -16,7 +16,7 @@ export class ArticleProvider extends Component {
 
     componentDidMount = async () =>{
         const response = await axios.get("http://localhost:3000/article")
-        console.log(response.data[0])
+        
         this.setState({
             articleContent:response.data[0],
             articles:response.data[1],
