@@ -6,6 +6,7 @@ import About from './components/About';
 import ArticleDetail from './components/ArticleDetail';
 import NotFound from './components/pages/NotFound';
 import resumeData from './data/resumeData';
+import { ArticleProvider } from './data/context';
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
@@ -25,8 +26,9 @@ function App() {
           </Route>
 
           <Route exact path="/blog">
-            <ArticleDetail resumeData={resumeData}>
-            </ArticleDetail>
+            <ArticleProvider>
+              <ArticleDetail />
+            </ArticleProvider>
           </Route>
 
           <Route exact path="/about">
