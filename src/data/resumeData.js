@@ -1,13 +1,13 @@
-import picture from './components/image/image2.jpg'
-import pictureOne from './components/image/2.png'
-import pictureTwo from './components/image/3.png'
-import pictureThree from './components/image/4.png'
-import pictureFour from './components/image/5.png'
-import pictureFive from './components/image/6.png'
-import pictureSix from './components/image/7.png'
-import bgPicture from './components/image/8.jpg';
-import profilePicture from './components/image/9.png';
-import articlePicture from './components/image/10.png';
+import picture from '../image/image2.jpg'
+import pictureOne from '../image/2.png'
+import pictureTwo from '../image/3.png'
+import pictureThree from '../image/4.png'
+import pictureFour from '../image/5.png'
+import pictureFive from '../image/6.png'
+import pictureSix from '../image/7.png'
+import bgPicture from '../image/8.jpg';
+import profilePicture from '../image/9.png';
+import articlePicture from '../image/10.png';
 
 
 let resumeData = {

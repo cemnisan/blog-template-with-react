@@ -1,11 +1,11 @@
-import Navbar from './components/class/Navbar';
-import Feature from './components/class/Feature';
-import AllArticles from './components/class/AllArticles';
-import Footer from './components/class/Footer';
-import About from './components/class/About';
-import ArticleDetail from './components/class/ArticleDetail';
-import NotFound from './components/class/NotFound';
-import resumeData from './resumeData';
+import Navbar from './components/layout/Navbar';
+import Feature from './components/Feature';
+import AllArticles from './components/AllArticles';
+import Footer from './components/layout/Footer';
+import About from './components/About';
+import ArticleDetail from './components/ArticleDetail';
+import NotFound from './components/pages/NotFound';
+import resumeData from './data/resumeData';
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 

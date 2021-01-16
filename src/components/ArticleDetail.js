@@ -84,7 +84,7 @@ class ArticleDetail extends Component {
                                                 <img src={authorPic} alt="..."></img>
                                             </div>
                                             <div className="profileTitle mx-3">
-                                                <p>{author}</p>
+                                                <p>{<b>{author}</b>}</p>
                                                 
                                             </div>
                                         </div>
